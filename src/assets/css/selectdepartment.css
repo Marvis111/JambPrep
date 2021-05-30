@@ -1,0 +1,84 @@
+:root {
+    --black--: black;
+    --yellow--: #FFAD01;
+    --ash--: #f2f2f2;
+    --brown--:#887392;
+    --white--: #FFFFFF;
+    --blue--: #007bff;
+    --deepblue--: rgb(25, 50, 77);
+}
+.page{
+    width: calc(100vw - 250px);
+    box-shadow: 1px 1px 5px var(--blue--);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+    display: flex;
+    flex-direction: column;
+    position: relative !important;
+    left:250px;
+}
+.welcomeTxt{
+    width: max-content;
+    padding: 20px;
+    margin:5px auto;
+    font-weight: 700;
+    font-size: 30px;
+}
+.selectDepartment{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+select{
+    width:60%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid  var(--blue--);
+    padding-left: 15px;
+    background: var(--ash--);
+    cursor: pointer;
+    padding-right: 15px;
+}
+.formInput{
+    text-align: center !important;
+}
+
+.selectDepartment label{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.custom-control {
+    display: inline-block !important;
+    margin: 10px;
+    position: relative !important;
+    text-align: center !important;
+    align-items: center !important;
+
+}
+
+.custom-control label{
+    font-size: 16px !important;
+}
+.form-submit{
+    padding: 5px 10px ;
+    background: var(--blue--);
+    color: white;
+    margin: 10px auto !important;
+    width: max-content;
+    border-radius: 10px;
+
+}
+.form-submit button{
+    background: inherit;
+    border: none;
+    color: white;
+}

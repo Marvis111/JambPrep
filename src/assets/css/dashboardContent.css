@@ -1,0 +1,26 @@
+.dashboardContent{
+    width: calc(100vw - 250px);
+    height: 100vh;
+    position: relative !important;
+    left: 250px;
+    padding-top: 20px;
+}
+
+.welcome-container{
+    width: 98%;
+    height: 150px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px cornflowerblue;
+    display: flex;
+    flex-direction: column;
+
+}
+.welcome-container h1{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.welcome-container span{
+    padding-left: 20px;
+}
